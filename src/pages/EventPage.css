@@ -1,0 +1,135 @@
+.event-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: var(--font-sans, system-ui, sans-serif);
+  color: var(--color-text, #222);
+}
+
+
+.event-page__header {
+  margin-bottom: 2rem;
+  position: static;
+}
+.event-page__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.event-page__genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-self: center;
+}
+.event-page__genre-tag {
+  background-color: #e2e8f0;
+  color: #1a202c;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+
+.event-page__social {
+  margin-bottom: 2rem;
+}
+.event-page__social h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.event-page__social-links {
+  display: flex;
+  gap: 1rem;
+  justify-self: center;
+}
+.event-page__social-links a {
+  text-decoration: none;
+  color: var(--color-accent, #000);
+  font-weight: 500;
+}
+.event-page__social-links a:hover {
+  text-decoration: underline;
+}
+
+
+.event-page__passes {
+  margin-bottom: 2rem;
+}
+.event-page__passes h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.event-page__passes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.event-page__pass-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+.event-page__pass-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.event-page__pass-content {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.event-page__pass-content h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.event-page__pass-content p {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+.event-page__pass-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+.event-page__pass-actions button {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.event-page__pass-actions .btn--buy {
+  background-color: var(--color-accent, #000);
+  color: #fff;
+  border: none;
+}
+.event-page__pass-actions .btn--wishlist {
+  background-color: transparent;
+  color: var(--color-text, #222);
+  border: 1px solid #a0aec0;
+}
+
+
+.event-page__artists {
+  margin-bottom: 2rem;
+}
+.event-page__artists h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.event-page__artists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.object-cover {
+    height: 15rem;
+}

@@ -1,0 +1,19 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Evt. egne globale justeringer */
+body {
+  @apply bg-white text-gray-900;
+  font-family: system-ui, sans-serif;
+}
+header {
+  @apply sticky top-0 z-10 bg-white;
+}
+a {
+  @apply no-underline;
+}
+a:hover {
+  @apply opacity-90;
+}
